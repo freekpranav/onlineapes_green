@@ -49,7 +49,9 @@
 
 .master-slider.before-init{}
 
-.master-slider img, .ms-slide-bgvideocont video {max-width:none;}
+.master-slider img, .
+
+-bgvideocont video {max-width:none;}
 .master-slider.ms-fullheight{height: 100%;}
 .ms-slide-auto-height { display: table; }
 .ms-loading-container{
@@ -143,7 +145,12 @@
 	position: absolute;
 	top: 0px;
 }
+.ms-slide .ms-slide-bgcont img {
 
+
+
+margin-left:0px;
+}
 
 .ms-inner-controls-cont, .ms-container {position: relative; margin:0 auto;}
 .ms-slide .ms-slide-bgcont img , .ms-container , .ms-inner-controls-cont{
